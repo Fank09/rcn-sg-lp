@@ -210,6 +210,53 @@ header {
       }
     }
   }
+  .specialisations2 {
+    background: url(../images/rcnsg-lp/parallax-bg.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    h2 {
+      color: #000000;
+      text-align: center;
+    }
+    .specialisations-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: end;
+      padding: 3rem 0;
+      .left {
+        width: 40%;
+
+      }
+      .right {
+        width: 40%;
+
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        li {
+          display: flex;
+          align-items: center;
+          font-size: 1.2em;
+          font-weight: 400;
+          color: #000000;
+          margin-bottom: 1rem;
+          .icon {
+            width: 25px;
+            height: auto;
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
   .testimonials {
     background: #2c91ff;
     padding-bottom: 3rem;
@@ -360,6 +407,36 @@ footer {
           li {
             width: 100%;
             font-size: 1.2em;
+            .icon {
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+    .specialisations2 {
+      background: #F8F8F8;
+      .specialisations-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 2rem 0;
+        .left {
+          width: 100%;
+  
+        }
+        .right {
+          width: 100%;
+  
+        }
+        ul {
+          flex-direction: column;
+  
+          li {
+            display: flex;
+            align-items: center;
+            font-size: 1.2em;
+            margin-bottom: 1rem;
             .icon {
               width: 20px;
             }
