@@ -289,7 +289,7 @@ header #hero-wrap .desktop::before {
 }
 #rcnsgLP .testimonials .button .solid {
   background: #fff;
-  color: #2C91FF;
+  color: #2c91ff;
   margin-top: 4rem;
 }
 #rcnsgLP .testimonials .owl-dot {
@@ -301,9 +301,78 @@ header #hero-wrap .desktop::before {
 #rcnsgLP .testimonials .owl-dot.active span {
   background: white;
 }
+#rcnsgLP .testimonials-2 {
+  background: #efefef;
+  padding-bottom: 3rem;
+  position: relative;
+}
+#rcnsgLP .testimonials-2 h2 {
+  color: #000e34;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#rcnsgLP .testimonials-2 .quote {
+  margin: auto auto;
+  z-index: 8;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #3678fc;
+  padding: 10px;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+#rcnsgLP .testimonials-2 .quote img {
+  width: 100%;
+  height: auto;
+}
+#rcnsgLP .testimonials-2 .testimonials-container {
+  margin-top: -25px;
+}
+#rcnsgLP .testimonials-2 .testimonials-container .box .inner {
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 3rem 3rem;
+  color: #000000;
+}
+#rcnsgLP .testimonials-2 .testimonials-container .box .inner .words .text {
+  font-size: 1.35em;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+#rcnsgLP .testimonials-2 .testimonials-container .box .inner .words .name {
+  font-weight: 600;
+  text-align: right;
+}
+#rcnsgLP .testimonials-2 .testimonials-container .box .inner .words .position {
+  font-weight: 400;
+  text-align: right;
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1em;
+}
+#rcnsgLP .button .gradient {
+  background: #3678fc;
+  color: white;
+  margin-top: 4rem;
+}
+#rcnsgLP .owl-dot {
+  margin-top: 20px;
+}
+#rcnsgLP .owl-dot span {
+  background: #d0d0d0;
+}
+#rcnsgLP .owl-dot.active span {
+  background: #3678fc;
+}
 
 footer {
-  background: #1F67EB;
+  background: #1f67eb;
 }
 
 @media only screen and (max-width: 768px) {
@@ -363,7 +432,7 @@ footer {
     font-size: 1.5em;
   }
   #rcnsgLP .specialisations {
-    background: #F8F8F8;
+    background: #f8f8f8;
   }
   #rcnsgLP .specialisations h2 {
     color: #000000;
@@ -384,7 +453,7 @@ footer {
     width: 20px;
   }
   #rcnsgLP .specialisations2 {
-    background: #F8F8F8;
+    background: #f8f8f8;
   }
   #rcnsgLP .specialisations2 .specialisations-container {
     flex-direction: column;
@@ -410,40 +479,31 @@ footer {
   #rcnsgLP .specialisations2 .specialisations-container ul li .icon {
     width: 20px;
   }
-  #rcnsgLP .testimonials {
-    padding-bottom: 3rem;
+  #rcnsgLP .testimonials-2 {
+    padding-bottom: 2rem;
   }
-  #rcnsgLP .testimonials .testimonials-container .box {
-    padding: 2rem 0;
+  #rcnsgLP .testimonials-2 h2 {
+    margin-bottom: 2rem;
   }
-  #rcnsgLP .testimonials .testimonials-container .box .quote {
+  #rcnsgLP .testimonials-2 .quote {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+  #rcnsgLP .testimonials-2 .quote img {
     width: 100%;
-    font-size: 1.2em;
+    height: auto;
   }
-  #rcnsgLP .testimonials .testimonials-container .box .foot {
-    flex-direction: column;
+  #rcnsgLP .testimonials-2 .testimonials-container {
+    margin-top: -25px;
   }
-  #rcnsgLP .testimonials .testimonials-container .box .foot .left {
+  #rcnsgLP .testimonials-2 .testimonials-container .box .inner {
     width: 100%;
+    padding: 3rem 2rem;
+  }
+  #rcnsgLP .testimonials-2 .testimonials-container .box .inner .words .text {
     font-size: 1.2em;
-  }
-  #rcnsgLP .testimonials .testimonials-container .box .foot .right {
-    margin-top: 1rem;
-  }
-  #rcnsgLP .testimonials .testimonials-container .box .foot .right img {
-    width: 90px;
-    margin: auto auto;
-  }
-  #rcnsgLP .testimonials .button .solid {
-    margin-top: 4rem;
-  }
-  #rcnsgLP .testimonials .owl-dot {
-    margin-top: 20px;
-  }
-  #rcnsgLP .testimonials .owl-dot span {
-    background: rgba(255, 255, 255, 0.5);
-  }
-  #rcnsgLP .testimonials .owl-dot.active span {
-    background: white;
+    line-height: 3rem;
+    margin-bottom: 3rem;
   }
 }
