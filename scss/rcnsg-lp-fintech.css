@@ -32,6 +32,7 @@ header #hero-wrap .desktop::before {
   margin-bottom: 2.5rem;
 }
 #hero-wrap .cta-btn {
+  font-family: "proxima-nova", sans-serif !important;
   display: inline;
   padding: 0;
   padding: 15px 30px !important;
@@ -66,6 +67,7 @@ header #hero-wrap .desktop::before {
   font-weight: 700;
 }
 #rcnsgLP p {
+  font-family: "proxima-nova", sans-serif !important;
   font-size: 1.2em;
   margin-bottom: 1rem;
 }
